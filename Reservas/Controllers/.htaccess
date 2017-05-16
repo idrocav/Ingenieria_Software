@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /Reservas/views/error_404.html [L]

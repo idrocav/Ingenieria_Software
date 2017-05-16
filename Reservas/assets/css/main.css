@@ -1,0 +1,74 @@
+.navbar-inverse {
+    background-color: #005f86;
+    border-color: #0079b4;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #f2f2f2;
+}
+.navbar-inverse .navbar-brand{
+	color: #e2e2e2;
+}
+
+.mesas{
+	font-size: 80px;
+}
+
+.mesas.ocupado{
+	color: #d19c5e;
+}
+
+.container_mesas{
+	padding: 30px 0;
+}
+
+.container_mesas .mesa{
+	text-align: center;
+}
+
+.modal-dialog .clear{
+	margin: 15px 0;
+}
+
+.modal-dialog p{
+	width: 90%;
+}
+
+.modal-dialog p span{
+	float: right;
+}
+
+.mesas_leyenda li::before{
+	content: "\e041";
+	font-family: 'Glyphicons Halflings';
+	margin-right: 5px;
+	margin-top: 3px;
+}
+
+.mesas_leyenda .libre::before, .mesas.LI{
+	color: green;
+}
+.mesas_leyenda .reservado::before, .mesas.RE{
+	color: orange;
+}
+.mesas_leyenda .ocupada::before, .mesas.OC{
+	color: red;
+}
+.mesas_leyenda .pidiendo::before, .mesas.PI{
+	color: yellow;
+}
+.mesas_leyenda .espera_comida::before, .mesas.ES{
+	color: blue;
+}
+.mesas_leyenda .servido::before, .mesas.SE{
+	color: pink;
+}
+.mesas_leyenda .cuenta::before, .mesas.CU{
+	color: #999;
+}
+.mesas_leyenda .pagando::before, .mesas.PA{
+	color: purple;
+}
+
+.mesas_leyenda {
+	margin-bottom: 30px;
+}
